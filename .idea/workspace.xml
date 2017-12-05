@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63da7f82-b760-4e25-8588-80a2b64f0b18" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controllers/ListBookingsController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/list.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/_menu.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Application.php" afterPath="$PROJECT_DIR$/src/Application.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/base.html.twig" afterPath="$PROJECT_DIR$/views/base.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +17,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="list.html.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/list.html.twig">
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="47" column="14" lean-forward="false" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+            <state relative-caret-position="374">
+              <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -50,13 +51,14 @@
         <option value="$PROJECT_DIR$/web/app.db" />
         <option value="$PROJECT_DIR$/web/index.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/src/Application.php" />
         <option value="$PROJECT_DIR$/src/Controllers/CreateBookingController.php" />
-        <option value="$PROJECT_DIR$/views/base.html.twig" />
         <option value="$PROJECT_DIR$/web/css/base.css" />
         <option value="$PROJECT_DIR$/views/form.html.twig" />
         <option value="$PROJECT_DIR$/src/Controllers/ListBookingsController.php" />
         <option value="$PROJECT_DIR$/views/list.html.twig" />
+        <option value="$PROJECT_DIR$/src/Application.php" />
+        <option value="$PROJECT_DIR$/views/_menu.html.twig" />
+        <option value="$PROJECT_DIR$/views/base.html.twig" />
       </list>
     </option>
   </component>
@@ -267,7 +269,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512502227481</updated>
-      <workItem from="1512502229228" duration="5532000" />
+      <workItem from="1512502229228" duration="5696000" />
     </task>
     <task id="LOCAL-00001" summary="Add Silex to the project using composer and adding &quot;vendor/&quot; to .gitignore">
       <created>1512502978914</created>
@@ -353,11 +355,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512507646280</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="New tab for submitted bookings">
+      <created>1512507806559</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1512507806559</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5532000" />
+    <option name="totallyTimeSpent" value="5696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -403,7 +412,8 @@
     <MESSAGE value="Private functions" />
     <MESSAGE value="forms &amp; form template" />
     <MESSAGE value="separate class file" />
-    <option name="LAST_COMMIT_MESSAGE" value="separate class file" />
+    <MESSAGE value="New tab for submitted bookings" />
+    <option name="LAST_COMMIT_MESSAGE" value="New tab for submitted bookings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -418,45 +428,6 @@
             <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Application.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="114" column="1" lean-forward="false" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
-          <folding>
-            <marker date="1512507449035" expanded="true" signature="34:752" ph="..." />
-            <marker date="1512507449035" expanded="true" signature="757:837" ph=" Custom Application class that hold our application specifix functionality. ..." />
-            <marker date="1512507449035" expanded="true" signature="882:4413" ph="{...}" />
-            <marker date="1512507449035" expanded="true" signature="936:1094" ph="{...}" />
-            <marker date="1512507449035" expanded="true" signature="1136:1764" ph="{...}" />
-            <marker date="1512507449035" expanded="true" signature="1198:1286" ph="..." />
-            <marker date="1512507449035" expanded="true" signature="1226:1285" ph="..." />
-            <marker date="1512507449035" expanded="true" signature="1347:1535" ph="..." />
-            <marker date="1512507449035" expanded="true" signature="1379:1534" ph="..." />
-            <marker date="1512507449035" expanded="true" signature="1409:1523" ph="..." />
-            <marker date="1512507449035" expanded="true" signature="1668:1756" ph="..." />
-            <marker date="1512507449035" expanded="true" signature="1715:1755" ph="..." />
-            <marker date="1512507449035" expanded="true" signature="1803:2528" ph="{...}" />
-            <marker date="1512507449035" expanded="true" signature="1882:2521" ph="..." />
-            <marker date="1512507449035" expanded="true" signature="1921:2510" ph="..." />
-            <marker date="1512507449035" expanded="true" signature="1922:2508" ph="CREATE TABLE... bookings" />
-            <marker date="1512507449035" expanded="true" signature="2573:4411" ph="{...}" />
-            <marker date="1512507449035" expanded="true" signature="2599:4403" ph="..." />
-            <marker date="1512507449035" expanded="true" signature="2632:4402" ph="..." />
-            <marker date="1512507449035" expanded="true" signature="3222:3404" ph="..." />
-            <marker date="1512507449035" expanded="true" signature="3428:3608" ph="..." />
-            <marker date="1512507449035" expanded="true" signature="3632:3684" ph="..." />
-            <marker date="1512507449035" expanded="true" signature="3708:3762" ph="..." />
-            <marker date="1512507449035" expanded="true" signature="3786:4030" ph="..." />
-            <marker date="1512507449035" expanded="true" signature="3822:4029" ph="..." />
-            <marker date="1512507449035" expanded="true" signature="4054:4159" ph="..." />
-            <marker date="1512507449035" expanded="true" signature="4101:4158" ph="..." />
-            <marker date="1512507449035" expanded="true" signature="4183:4239" ph="..." />
-            <marker date="1512507449035" expanded="true" signature="4311:4390" ph="..." />
-            <marker date="1512507449035" expanded="true" signature="4330:4389" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -480,18 +451,6 @@
             <marker date="1512504599408" expanded="true" signature="0:87" ph="{## ## Header component...##}" />
             <marker date="1512504599408" expanded="true" signature="107:238" ph="..." />
             <marker date="1512504599408" expanded="true" signature="198:231" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding>
-            <marker date="1512507569233" expanded="true" signature="21:735" ph="..." />
-            <marker date="1512507569233" expanded="true" signature="28:614" ph="..." />
-            <marker date="1512507569233" expanded="true" signature="621:727" ph="..." />
           </folding>
         </state>
       </provider>
@@ -786,6 +745,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="524">
           <caret line="47" column="14" lean-forward="false" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+          <folding>
+            <marker date="1512507762561" expanded="true" signature="32:1488" ph="{% block content ...%}" />
+            <marker date="1512507762561" expanded="true" signature="90:1473" ph="{% if bookings is empty ...%}" />
+            <marker date="1512507762561" expanded="true" signature="212:1456" ph="..." />
+            <marker date="1512507762561" expanded="true" signature="232:693" ph="..." />
+            <marker date="1512507762561" expanded="true" signature="249:672" ph="..." />
+            <marker date="1512507762561" expanded="true" signature="713:1439" ph="..." />
+            <marker date="1512507762561" expanded="true" signature="727:1419" ph="{% for row in bookings ...%}" />
+            <marker date="1512507762561" expanded="true" signature="772:1393" ph="..." />
+            <marker date="1512507762561" expanded="true" signature="1490:1627" ph="{% block stylesheets ...%}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="87" column="1" lean-forward="false" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
+          <folding>
+            <marker date="1512507847529" expanded="true" signature="34:388" ph="..." />
+            <marker date="1512507847529" expanded="true" signature="393:473" ph=" Custom Application class that hold our application specifix functionality. ..." />
+            <marker date="1512507847529" expanded="true" signature="518:2832" ph="{...}" />
+            <marker date="1512507847529" expanded="true" signature="572:730" ph="{...}" />
+            <marker date="1512507847529" expanded="true" signature="739:794" ph=" Config app options and register services. ..." />
+            <marker date="1512507847529" expanded="true" signature="837:1440" ph="{...}" />
+            <marker date="1512507847529" expanded="true" signature="899:987" ph="..." />
+            <marker date="1512507847529" expanded="true" signature="927:986" ph="..." />
+            <marker date="1512507847529" expanded="true" signature="1048:1236" ph="..." />
+            <marker date="1512507847529" expanded="true" signature="1080:1235" ph="..." />
+            <marker date="1512507847529" expanded="true" signature="1110:1224" ph="..." />
+            <marker date="1512507847529" expanded="true" signature="1449:1521" ph=" Creates all needed tables to database if they don't exist. ..." />
+            <marker date="1512507847529" expanded="true" signature="1561:2286" ph="{...}" />
+            <marker date="1512507847529" expanded="true" signature="1640:2279" ph="..." />
+            <marker date="1512507847529" expanded="true" signature="1679:2268" ph="..." />
+            <marker date="1512507847529" expanded="true" signature="1680:2266" ph="CREATE TABLE... bookings" />
+            <marker date="1512507847529" expanded="true" signature="2295:2370" ph=" Define all used routes and connect a route to its controller. ..." />
+            <marker date="1512507847529" expanded="true" signature="2416:2830" ph="{...}" />
+            <marker date="1512507847529" expanded="true" signature="2457:2617" ph="..." />
+            <marker date="1512507847529" expanded="true" signature="2640:2650" ph="..." />
+            <marker date="1512507847529" expanded="true" signature="2671:2685" ph="..." />
+            <marker date="1512507847529" expanded="true" signature="2720:2787" ph="..." />
+            <marker date="1512507847529" expanded="true" signature="2808:2822" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/_menu.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding>
+            <marker date="1512507893032" expanded="true" signature="17:338" ph="..." />
+            <marker date="1512507893032" expanded="true" signature="23:76" ph="{% set currentUrl = global.request.getRequestUri() ...%}" />
+            <marker date="1512507893032" expanded="true" signature="307:331" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
           <folding />
         </state>
       </provider>
