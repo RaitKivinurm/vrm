@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63da7f82-b760-4e25-8588-80a2b64f0b18" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/app.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vrm.iml" afterPath="$PROJECT_DIR$/.idea/vrm.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Application.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vmr/views/_footer.html.twig" afterPath="$PROJECT_DIR$/views/_footer.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vmr/views/_header.html.twig" afterPath="$PROJECT_DIR$/views/_header.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vmr/views/base.html.twig" afterPath="$PROJECT_DIR$/views/base.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.php" afterPath="$PROJECT_DIR$/web/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +20,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.db" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/app.db">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -50,9 +49,11 @@
         <option value="$PROJECT_DIR$/web/images/css/menu.css" />
         <option value="$PROJECT_DIR$/web/images/css/normalize.css" />
         <option value="$PROJECT_DIR$/composer.lock" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/web/app.db" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/src/Application.php" />
         <option value="$PROJECT_DIR$/web/index.php" />
       </list>
     </option>
@@ -128,6 +129,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\vrm" />
       <recent name="C:\xampp\htdocs\vrm\web" />
       <recent name="C:\xampp\htdocs\vrm\web\images" />
     </key>
@@ -217,7 +219,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512502227481</updated>
-      <workItem from="1512502229228" duration="3687000" />
+      <workItem from="1512502229228" duration="3996000" />
     </task>
     <task id="LOCAL-00001" summary="Add Silex to the project using composer and adding &quot;vendor/&quot; to .gitignore">
       <created>1512502978914</created>
@@ -268,11 +270,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512505281888</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Bookings database added">
+      <created>1512505949999</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1512505949999</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3687000" />
+    <option name="totallyTimeSpent" value="3996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -313,14 +322,15 @@
     <MESSAGE value="twigs &amp; views" />
     <MESSAGE value="Separate html and css secetions" />
     <MESSAGE value="Separate html &amp; css secetions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Separate html &amp; css secetions" />
+    <MESSAGE value="Bookings database added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bookings database added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vmr/views/_footer.html.twig">
+    <entry file="file://$PROJECT_DIR$/views/_footer.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
@@ -332,7 +342,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vmr/views/_header.html.twig">
+    <entry file="file://$PROJECT_DIR$/views/_header.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
@@ -344,7 +354,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vmr/views/base.html.twig">
+    <entry file="file://$PROJECT_DIR$/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
@@ -547,17 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding>
-            <marker date="1512505656020" expanded="true" signature="0:103" ph="{...}" />
-            <marker date="1512505656020" expanded="true" signature="15:101" ph="{&quot;silex/silex&quot;: &quot;~2.0&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -577,29 +576,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-          <folding>
-            <marker date="1512505818588" expanded="true" signature="123:208" ph="..." />
-            <marker date="1512505818588" expanded="true" signature="166:207" ph="..." />
-            <marker date="1512505818588" expanded="true" signature="226:387" ph="..." />
-            <marker date="1512505818588" expanded="true" signature="273:386" ph="..." />
-            <marker date="1512505818588" expanded="true" signature="295:383" ph="..." />
-            <marker date="1512505818588" expanded="true" signature="452:974" ph="..." />
-            <marker date="1512505818588" expanded="true" signature="482:971" ph="..." />
-            <marker date="1512505818588" expanded="true" signature="492:969" ph="CREATE TABLE... bookings" />
-            <marker date="1512505818588" expanded="true" signature="986:1083" ph="..." />
-            <marker date="1512505818588" expanded="true" signature="1030:1082" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/app.db">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <marker date="1512506036559" expanded="true" signature="0:172" ph="{...}" />
+            <marker date="1512506036559" expanded="true" signature="15:100" ph="{&quot;silex/silex&quot;: &quot;~2.0&quot;...}" />
+            <marker date="1512506036559" expanded="true" signature="116:170" ph="{...}" />
+            <marker date="1512506036559" expanded="true" signature="131:166" ph="{&quot;BookingApp\&quot;: &quot;src&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="47" lean-forward="true" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+          <folding>
+            <marker date="1512506162953" expanded="true" signature="32:154" ph="..." />
+            <marker date="1512506162953" expanded="true" signature="158:238" ph=" Custom Application class that hold our application specifix functionality. ..." />
+            <marker date="1512506162953" expanded="true" signature="283:1670" ph="{...}" />
+            <marker date="1512506162953" expanded="true" signature="337:1668" ph="{...}" />
+            <marker date="1512506162953" expanded="true" signature="437:523" ph="..." />
+            <marker date="1512506162953" expanded="true" signature="465:522" ph="..." />
+            <marker date="1512506162953" expanded="true" signature="584:770" ph="..." />
+            <marker date="1512506162953" expanded="true" signature="616:769" ph="..." />
+            <marker date="1512506162953" expanded="true" signature="646:758" ph="..." />
+            <marker date="1512506162953" expanded="true" signature="897:1536" ph="..." />
+            <marker date="1512506162953" expanded="true" signature="936:1525" ph="..." />
+            <marker date="1512506162953" expanded="true" signature="937:1523" ph="CREATE TABLE... bookings" />
+            <marker date="1512506162953" expanded="true" signature="1557:1660" ph="..." />
+            <marker date="1512506162953" expanded="true" signature="1590:1659" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
           <folding />
         </state>
       </provider>
