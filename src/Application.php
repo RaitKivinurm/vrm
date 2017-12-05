@@ -26,7 +26,7 @@ class Application extends SilexApplication
     {
         parent::__construct($values);
         $this->configureServices();
-        $this->createeDBTables();
+        $this->createDBTables();
         $this->configureControllers();
     }
 
@@ -50,7 +50,7 @@ class Application extends SilexApplication
             ]);
     }
 
-    private function createDBTablees()
+    private function createDBTables()
     {
         if (!$this['db']->getSchemaManager()->tablesExist('bookings')) {
             $this['db']->executeQuery("CREATE TABLE bookings (
