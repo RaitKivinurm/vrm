@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63da7f82-b760-4e25-8588-80a2b64f0b18" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/_menu.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/AppTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/app.db" afterPath="$PROJECT_DIR$/phpunit.xml.dist" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Application.php" afterPath="$PROJECT_DIR$/src/Application.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/base.html.twig" afterPath="$PROJECT_DIR$/views/base.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,12 +18,15 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/base.html.twig">
+      <file leaf-file-name="Application.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Application.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="212">
+              <caret line="39" column="56" lean-forward="false" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="56" />
+              <folding>
+                <element signature="e#30#81#0#PHP" expanded="true" />
+                <marker date="1512507847529" expanded="true" signature="1680:2266" ph="CREATE TABLE... bookings" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,7 +54,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/web/app.db" />
         <option value="$PROJECT_DIR$/web/index.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/Controllers/CreateBookingController.php" />
         <option value="$PROJECT_DIR$/web/css/base.css" />
         <option value="$PROJECT_DIR$/views/form.html.twig" />
@@ -59,6 +62,9 @@
         <option value="$PROJECT_DIR$/src/Application.php" />
         <option value="$PROJECT_DIR$/views/_menu.html.twig" />
         <option value="$PROJECT_DIR$/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/phpunit.xml.dist" />
+        <option value="$PROJECT_DIR$/tests/AppTest.php" />
       </list>
     </option>
   </component>
@@ -143,7 +149,39 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vrm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vrm" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vrm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vrm" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -179,6 +217,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\vrm\src\database" />
       <recent name="C:\xampp\htdocs\vrm" />
       <recent name="C:\xampp\htdocs\vrm\web" />
       <recent name="C:\xampp\htdocs\vrm\web\images" />
@@ -269,7 +308,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512502227481</updated>
-      <workItem from="1512502229228" duration="5696000" />
+      <workItem from="1512502229228" duration="6403000" />
     </task>
     <task id="LOCAL-00001" summary="Add Silex to the project using composer and adding &quot;vendor/&quot; to .gitignore">
       <created>1512502978914</created>
@@ -362,21 +401,28 @@
       <option name="project" value="LOCAL" />
       <updated>1512507806559</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Menu to switch routes">
+      <created>1512507954719</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1512507954719</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5696000" />
+    <option name="totallyTimeSpent" value="6403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -387,7 +433,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -413,7 +458,8 @@
     <MESSAGE value="forms &amp; form template" />
     <MESSAGE value="separate class file" />
     <MESSAGE value="New tab for submitted bookings" />
-    <option name="LAST_COMMIT_MESSAGE" value="New tab for submitted bookings" />
+    <MESSAGE value="Menu to switch routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Menu to switch routes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -638,7 +684,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/app.db">
+    <entry file="file://$PROJECT_DIR$/src/database/app.db">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -651,19 +697,6 @@
         <state relative-caret-position="85">
           <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <marker date="1512506405484" expanded="true" signature="0:300" ph="{...}" />
-            <marker date="1512506405484" expanded="true" signature="15:228" ph="{&quot;silex/silex&quot;: &quot;~2.0&quot;...}" />
-            <marker date="1512506405484" expanded="true" signature="244:298" ph="{...}" />
-            <marker date="1512506405484" expanded="true" signature="259:294" ph="{&quot;BookingApp\&quot;: &quot;src&quot;...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -759,38 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Application.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="87" column="1" lean-forward="false" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
-          <folding>
-            <marker date="1512507847529" expanded="true" signature="34:388" ph="..." />
-            <marker date="1512507847529" expanded="true" signature="393:473" ph=" Custom Application class that hold our application specifix functionality. ..." />
-            <marker date="1512507847529" expanded="true" signature="518:2832" ph="{...}" />
-            <marker date="1512507847529" expanded="true" signature="572:730" ph="{...}" />
-            <marker date="1512507847529" expanded="true" signature="739:794" ph=" Config app options and register services. ..." />
-            <marker date="1512507847529" expanded="true" signature="837:1440" ph="{...}" />
-            <marker date="1512507847529" expanded="true" signature="899:987" ph="..." />
-            <marker date="1512507847529" expanded="true" signature="927:986" ph="..." />
-            <marker date="1512507847529" expanded="true" signature="1048:1236" ph="..." />
-            <marker date="1512507847529" expanded="true" signature="1080:1235" ph="..." />
-            <marker date="1512507847529" expanded="true" signature="1110:1224" ph="..." />
-            <marker date="1512507847529" expanded="true" signature="1449:1521" ph=" Creates all needed tables to database if they don't exist. ..." />
-            <marker date="1512507847529" expanded="true" signature="1561:2286" ph="{...}" />
-            <marker date="1512507847529" expanded="true" signature="1640:2279" ph="..." />
-            <marker date="1512507847529" expanded="true" signature="1679:2268" ph="..." />
-            <marker date="1512507847529" expanded="true" signature="1680:2266" ph="CREATE TABLE... bookings" />
-            <marker date="1512507847529" expanded="true" signature="2295:2370" ph=" Define all used routes and connect a route to its controller. ..." />
-            <marker date="1512507847529" expanded="true" signature="2416:2830" ph="{...}" />
-            <marker date="1512507847529" expanded="true" signature="2457:2617" ph="..." />
-            <marker date="1512507847529" expanded="true" signature="2640:2650" ph="..." />
-            <marker date="1512507847529" expanded="true" signature="2671:2685" ph="..." />
-            <marker date="1512507847529" expanded="true" signature="2720:2787" ph="..." />
-            <marker date="1512507847529" expanded="true" signature="2808:2822" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/_menu.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -807,7 +808,64 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-          <folding />
+          <folding>
+            <marker date="1512507924288" expanded="true" signature="21:986" ph="..." />
+            <marker date="1512507924288" expanded="true" signature="28:761" ph="..." />
+            <marker date="1512507924288" expanded="true" signature="283:754" ph="{% block stylesheets ...%}" />
+            <marker date="1512507924288" expanded="true" signature="768:940" ph="..." />
+            <marker date="1512507924288" expanded="true" signature="859:892" ph="{% block content ...%}" />
+            <marker date="1512507924288" expanded="true" signature="942:979" ph="{% block javascripts ...%}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <marker date="1512508002145" expanded="true" signature="0:426" ph="{...}" />
+            <marker date="1512508002145" expanded="true" signature="15:228" ph="{&quot;silex/silex&quot;: &quot;~2.0&quot;...}" />
+            <marker date="1512508002145" expanded="true" signature="244:298" ph="{...}" />
+            <marker date="1512508002145" expanded="true" signature="259:294" ph="{&quot;BookingApp\&quot;: &quot;src&quot;...}" />
+            <marker date="1512508002145" expanded="true" signature="317:424" ph="{&quot;phpunit/phpunit&quot;: &quot;5.5.*&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpunit.xml.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding>
+            <marker date="1512508134783" expanded="true" signature="81:558" ph="..." />
+            <marker date="1512508134783" expanded="true" signature="415:547" ph="..." />
+            <marker date="1512508134783" expanded="true" signature="464:529" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/AppTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <marker date="1512508172903" expanded="true" signature="10:56" ph="..." />
+            <marker date="1512508172903" expanded="true" signature="91:399" ph="{...}" />
+            <marker date="1512508172903" expanded="true" signature="133:179" ph="{...}" />
+            <marker date="1512508172903" expanded="true" signature="228:397" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="39" column="56" lean-forward="false" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="56" />
+          <folding>
+            <element signature="e#30#81#0#PHP" expanded="true" />
+            <marker date="1512507847529" expanded="true" signature="1680:2266" ph="CREATE TABLE... bookings" />
+          </folding>
         </state>
       </provider>
     </entry>
