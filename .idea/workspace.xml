@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63da7f82-b760-4e25-8588-80a2b64f0b18" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vmr/views/base.html.twig" />
+    <list default="true" id="63da7f82-b760-4e25-8588-80a2b64f0b18" name="Default" comment="Separate html &amp; css secetions">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vmr/views/_footer.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vmr/views/_header.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/footer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/form.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/header.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/list.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/normalize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/notebook.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vmr/views/base.html.twig" afterPath="$PROJECT_DIR$/vmr/views/base.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.php" afterPath="$PROJECT_DIR$/web/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +26,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vmr/views/base.html.twig">
+      <file leaf-file-name="normalize.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/css/normalize.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="524">
+              <caret line="460" column="1" lean-forward="false" selection-start-line="460" selection-start-column="1" selection-end-line="460" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -34,10 +45,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/web/index.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/vmr/views/_footer.html.twig" />
+        <option value="$PROJECT_DIR$/vmr/views/_header.html.twig" />
         <option value="$PROJECT_DIR$/vmr/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/web/index.php" />
+        <option value="$PROJECT_DIR$/web/images/css/base.css" />
+        <option value="$PROJECT_DIR$/web/images/css/footer.css" />
+        <option value="$PROJECT_DIR$/web/images/css/form.css" />
+        <option value="$PROJECT_DIR$/web/images/css/header.css" />
+        <option value="$PROJECT_DIR$/web/images/css/list.css" />
+        <option value="$PROJECT_DIR$/web/images/css/menu.css" />
+        <option value="$PROJECT_DIR$/web/images/css/normalize.css" />
       </list>
     </option>
   </component>
@@ -54,7 +74,9 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -96,24 +118,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vrm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vrm" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vmr" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -125,6 +129,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\vrm\web" />
+      <recent name="C:\xampp\htdocs\vrm\web\images" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -211,7 +221,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512502227481</updated>
-      <workItem from="1512502229228" duration="2149000" />
+      <workItem from="1512502229228" duration="3028000" />
     </task>
     <task id="LOCAL-00001" summary="Add Silex to the project using composer and adding &quot;vendor/&quot; to .gitignore">
       <created>1512502978914</created>
@@ -248,18 +258,25 @@
       <option name="project" value="LOCAL" />
       <updated>1512504247900</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="twigs &amp; views">
+      <created>1512504396188</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1512504396188</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2149000" />
+    <option name="totallyTimeSpent" value="3028000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -289,7 +306,10 @@
     <MESSAGE value="Create front-controller and boostrap Silex" />
     <MESSAGE value="Updating composer.json &amp; fixing README mistake" />
     <MESSAGE value="Adding composer.lock" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding composer.lock" />
+    <MESSAGE value="twigs &amp; views" />
+    <MESSAGE value="Separate html and css secetions" />
+    <MESSAGE value="Separate html &amp; css secetions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Separate html &amp; css secetions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -312,17 +332,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-408">
-            <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -334,21 +343,149 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.php">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="255">
+            <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vmr/views/_footer.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding>
-            <marker date="1512503193051" expanded="true" signature="122:174" ph="..." />
-            <marker date="1512503193051" expanded="true" signature="145:173" ph="..." />
+            <marker date="1512504575148" expanded="true" signature="0:87" ph="{## ## Footer component...##}" />
+            <marker date="1512504575148" expanded="true" signature="107:234" ph="..." />
+            <marker date="1512504575148" expanded="true" signature="137:227" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vmr/views/_header.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <marker date="1512504599408" expanded="true" signature="0:87" ph="{## ## Header component...##}" />
+            <marker date="1512504599408" expanded="true" signature="107:238" ph="..." />
+            <marker date="1512504599408" expanded="true" signature="198:231" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vmr/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding>
+            <marker date="1512504636934" expanded="true" signature="21:736" ph="..." />
+            <marker date="1512504636934" expanded="true" signature="28:615" ph="..." />
+            <marker date="1512504636934" expanded="true" signature="622:728" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <marker date="1512504686331" expanded="true" signature="126:211" ph="..." />
+            <marker date="1512504686331" expanded="true" signature="169:210" ph="..." />
+            <marker date="1512504686331" expanded="true" signature="225:322" ph="..." />
+            <marker date="1512504686331" expanded="true" signature="269:321" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <marker date="1512504911823" expanded="true" signature="0:48" ph="/*...*/" />
+            <marker date="1512504911823" expanded="true" signature="54:88" ph="{...}" />
+            <marker date="1512504911823" expanded="true" signature="93:138" ph="{...}" />
+            <marker date="1512504911823" expanded="true" signature="149:289" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <marker date="1512504972501" expanded="true" signature="0:46" ph="/*...*/" />
+            <marker date="1512504972501" expanded="true" signature="55:339" ph="{...}" />
+            <marker date="1512504972501" expanded="true" signature="354:513" ph="{...}" />
+            <marker date="1512504972501" expanded="true" signature="530:553" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/form.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+          <folding>
+            <marker date="1512504972589" expanded="true" signature="38:130" ph="{...}" />
+            <marker date="1512504972589" expanded="true" signature="156:199" ph="{...}" />
+            <marker date="1512504972589" expanded="true" signature="231:268" ph="{...}" />
+            <marker date="1512504972589" expanded="true" signature="301:329" ph="{...}" />
+            <marker date="1512504972589" expanded="true" signature="362:509" ph="{...}" />
+            <marker date="1512504972589" expanded="true" signature="548:570" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <marker date="1512504995137" expanded="true" signature="0:50" ph="/*...*/" />
+            <marker date="1512504995137" expanded="true" signature="59:310" ph="{...}" />
+            <marker date="1512504995137" expanded="true" signature="328:437" ph="{...}" />
+            <marker date="1512504995137" expanded="true" signature="451:522" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/list.css">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <marker date="1512505017133" expanded="true" signature="45:128" ph="{...}" />
+            <marker date="1512505017133" expanded="true" signature="167:220" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <marker date="1512505038984" expanded="true" signature="0:48" ph="/*...*/" />
+            <marker date="1512505038984" expanded="true" signature="55:98" ph="{...}" />
+            <marker date="1512505038984" expanded="true" signature="111:406" ph="{...}" />
+            <marker date="1512505038984" expanded="true" signature="426:449" ph="{...}" />
+            <marker date="1512505038984" expanded="true" signature="463:493" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="460" column="1" lean-forward="false" selection-start-line="460" selection-start-column="1" selection-end-line="460" selection-end-column="1" />
           <folding />
         </state>
       </provider>
