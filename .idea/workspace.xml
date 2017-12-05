@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63da7f82-b760-4e25-8588-80a2b64f0b18" name="Default" comment="Separate html &amp; css secetions">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vmr/views/_footer.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vmr/views/_header.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/footer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/form.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/header.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/list.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/menu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/normalize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/notebook.svg" />
+    <list default="true" id="63da7f82-b760-4e25-8588-80a2b64f0b18" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/app.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vrm.iml" afterPath="$PROJECT_DIR$/.idea/vrm.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vmr/views/base.html.twig" afterPath="$PROJECT_DIR$/vmr/views/base.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.php" afterPath="$PROJECT_DIR$/web/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +21,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="normalize.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/css/normalize.css">
+      <file leaf-file-name="app.db" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/app.db">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="460" column="1" lean-forward="false" selection-start-line="460" selection-start-column="1" selection-end-line="460" selection-end-column="1" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -44,13 +39,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/vmr/views/_footer.html.twig" />
         <option value="$PROJECT_DIR$/vmr/views/_header.html.twig" />
         <option value="$PROJECT_DIR$/vmr/views/base.html.twig" />
-        <option value="$PROJECT_DIR$/web/index.php" />
         <option value="$PROJECT_DIR$/web/images/css/base.css" />
         <option value="$PROJECT_DIR$/web/images/css/footer.css" />
         <option value="$PROJECT_DIR$/web/images/css/form.css" />
@@ -58,6 +49,11 @@
         <option value="$PROJECT_DIR$/web/images/css/list.css" />
         <option value="$PROJECT_DIR$/web/images/css/menu.css" />
         <option value="$PROJECT_DIR$/web/images/css/normalize.css" />
+        <option value="$PROJECT_DIR$/composer.lock" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/web/index.php" />
       </list>
     </option>
   </component>
@@ -221,7 +217,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512502227481</updated>
-      <workItem from="1512502229228" duration="3028000" />
+      <workItem from="1512502229228" duration="3687000" />
     </task>
     <task id="LOCAL-00001" summary="Add Silex to the project using composer and adding &quot;vendor/&quot; to .gitignore">
       <created>1512502978914</created>
@@ -265,16 +261,24 @@
       <option name="project" value="LOCAL" />
       <updated>1512504396188</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Separate html &amp; css secetions">
+      <created>1512505281888</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1512505281888</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3028000" />
+    <option name="totallyTimeSpent" value="3687000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -316,44 +320,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding>
-            <marker date="1512503631454" expanded="true" signature="0:74" ph="{...}" />
-            <marker date="1512503631454" expanded="true" signature="15:72" ph="{&quot;silex/silex&quot;: &quot;~2.0&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vmr/views/_footer.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -386,19 +352,6 @@
             <marker date="1512504636934" expanded="true" signature="21:736" ph="..." />
             <marker date="1512504636934" expanded="true" signature="28:615" ph="..." />
             <marker date="1512504636934" expanded="true" signature="622:728" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <marker date="1512504686331" expanded="true" signature="126:211" ph="..." />
-            <marker date="1512504686331" expanded="true" signature="169:210" ph="..." />
-            <marker date="1512504686331" expanded="true" signature="225:322" ph="..." />
-            <marker date="1512504686331" expanded="true" signature="269:321" ph="..." />
           </folding>
         </state>
       </provider>
@@ -486,6 +439,167 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="524">
           <caret line="460" column="1" lean-forward="false" selection-start-line="460" selection-start-column="1" selection-end-line="460" selection-end-column="1" />
+          <folding>
+            <marker date="1512505066146" expanded="true" signature="78:306" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="308:400" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="407:562" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="564:656" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="658:717" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="724:742" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="744:788" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="835:858" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="860:995" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="1000:1045" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="1047:1147" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="1149:1230" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="1257:1288" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="1290:1332" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="1341:1366" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="1368:1460" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="1465:1559" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="1561:1696" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="1702:1780" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="1782:1886" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="1888:2016" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="2020:2117" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="2119:2236" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="2256:2281" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="2283:2415" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="2429:2552" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="2554:2640" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="2652:2681" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="2683:2750" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="2762:2790" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="2792:2927" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="2945:3023" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="3025:3079" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="3085:3112" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="3114:3171" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="3178:3226" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="3228:3281" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="3289:3312" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="3314:3408" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="3419:3516" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="3522:3546" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="3552:3572" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="3574:3674" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="3676:3720" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="3735:3765" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="3767:3813" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="3837:3874" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="3876:3938" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="3944:3971" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="3973:4008" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="4025:4050" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="4052:4141" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="4143:4257" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="4301:4424" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="4426:4494" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="4510:4544" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="4546:4682" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="4699:4736" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="4738:4919" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="4991:5034" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="5036:5094" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="5225:5268" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="5270:5333" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="5452:5491" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="5493:5573" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="5584:5673" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="5675:5918" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="5927:6108" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="6110:6229" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="6240:6316" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="6318:6373" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="6384:6407" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="6409:6496" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="6532:6595" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="6597:6678" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="6767:6788" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="6790:6895" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="6913:6993" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="6995:7080" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="7172:7205" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="7207:7339" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="7370:7440" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="7442:7537" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="7539:7638" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="7662:7685" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="7687:7737" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="7747:7774" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="7776:7869" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="7871:7915" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="7924:7954" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="7956:7997" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="8008:8030" ph="{...}" />
+            <marker date="1512505066146" expanded="true" signature="8032:8122" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="8124:8169" ph="/*...*/" />
+            <marker date="1512505066146" expanded="true" signature="8180:8202" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="824" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding>
+            <marker date="1512505656020" expanded="true" signature="0:103" ph="{...}" />
+            <marker date="1512505656020" expanded="true" signature="15:101" ph="{&quot;silex/silex&quot;: &quot;~2.0&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="272">
+            <caret line="59" column="117" lean-forward="false" selection-start-line="59" selection-start-column="117" selection-end-line="59" selection-end-column="117" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+          <folding>
+            <marker date="1512505818588" expanded="true" signature="123:208" ph="..." />
+            <marker date="1512505818588" expanded="true" signature="166:207" ph="..." />
+            <marker date="1512505818588" expanded="true" signature="226:387" ph="..." />
+            <marker date="1512505818588" expanded="true" signature="273:386" ph="..." />
+            <marker date="1512505818588" expanded="true" signature="295:383" ph="..." />
+            <marker date="1512505818588" expanded="true" signature="452:974" ph="..." />
+            <marker date="1512505818588" expanded="true" signature="482:971" ph="..." />
+            <marker date="1512505818588" expanded="true" signature="492:969" ph="CREATE TABLE... bookings" />
+            <marker date="1512505818588" expanded="true" signature="986:1083" ph="..." />
+            <marker date="1512505818588" expanded="true" signature="1030:1082" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
